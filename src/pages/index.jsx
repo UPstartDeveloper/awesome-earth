@@ -6,6 +6,7 @@ import slugify from "slugify"
 // Components
 import Carousel from "../components/carousel";
 import SEO from "../components/seo";
+import Navbar from "../components/navbar";
 
 // CSS
 import "normalize.css";
