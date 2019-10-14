@@ -6,7 +6,6 @@ import slugify from "slugify"
 // Components
 import Carousel from "../components/carousel";
 import SEO from "../components/seo";
-import Navbar from "../components/navbar";
 
 // CSS
 import "normalize.css";
@@ -19,7 +18,7 @@ export default ({ data }) => {
   }));
 
   return (
-    <>
+     <>
       <SEO title="Welcome" />
       <div className="padding">
         <h1>Awesome Earth</h1>
